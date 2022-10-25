@@ -1,28 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;500;700&display=swap');
-
-/* Задаем ширину контейнера awesome*/
 .awesome-container {
     height: 665px;
     width: 1170px;
-    margin: 50px auto;
+    margin: 50px auto 58px;
     font-family: Raleway, sans-serif;
-    box-sizing: border-box;
 }
 
-/* Заголовок awesome*/
+
 .awesome-container h2 {
     text-transform: uppercase;
-    width: 1170px;
     height: 150px;
     text-align: center;
     font-size: 36px;
     font-weight: 400;
-
-    display: table-cell;
-    vertical-align: middle;
+    line-height: 150px;
 }
 
-/* текст под заглавием */
+
 .awesome-container__gray-text {
     color: #86878B;
     text-align: center;
@@ -30,19 +23,15 @@
     margin-top: 40px;
     font-size: 18px;
     font-weight: 400;
-    /* border: 0.5px solid black; */
 
 }
 
-/* линия под h2 */
-.awesome-container div {
+.awesome-container .separator {
     border: 0.5px solid #EC7979;
     width: 170px;
-    height: 0;
-    margin: auto;
+    margin: 0 auto;
 }
 
-/* расстановка блоков внутри секции*/
 .awesome-container__articles article {
     display: inline-block;
     margin-top: 70px;
@@ -53,13 +42,11 @@
     height: 383px;
 }
 
-/* выравнивание артикла2 по центру */
-.articles__art2 {
+.awesome-container__art2 {
     margin: 0 25px;
 }
 
-/* Заглавие артиклов */
-.articles__headline {
+.awesome-container__articles h4 {
     height: 100px;
     width: 370px;
     font-family: Open Sans, sans-serif;
@@ -73,11 +60,10 @@
 
 }
 
-.articles__text {
+.awesome-container__articles h5 {
     font-size: 18px;
     height: 105px;
     width: 370px;
     text-align: center;
     font-weight: 400;
-
 }

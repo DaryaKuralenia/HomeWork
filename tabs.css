@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;500;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
 }
 
 .tabs-container {
@@ -10,8 +12,7 @@
     height: 541px;
     margin: 98px auto 50px;
     font-family: 'Open Sans', sans-serif;
-    /* padding-top: calc(((100vh - 546.4px)) /2); */
-    box-sizing: border-box;
+    /* padding-top: calc(((100vh - 546.4px)) / 2); */
 }
 
 .tabs-subcontainer {
@@ -19,7 +20,7 @@
     margin: 0 auto;
 }
 
-.open-tab .left-side h3 {
+.tabs-container .open-tab .left-side h3 {
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 27px;
@@ -33,6 +34,9 @@
     width: 1170px;
     height: 500px;
     border-top: none;
+    box-sizing: content-box;
+
+
 }
 
 .tabs-container .open-tab .left-side h5 {
@@ -44,16 +48,14 @@
 
 }
 
-.left-side {
-    /* border: 1px solid red; */
+.tabs-container .open-tab .left-side {
     width: 570px;
     display: inline-block;
-    margin: 0 25.8px 0 100px;
+    margin: 0 25px 0 100px;
     vertical-align: top;
-
 }
 
-.open-tab .left-side button {
+.tabs-container .open-tab .left-side button {
     width: 270px;
     height: 58px;
     background-color: #EC7979;
@@ -63,11 +65,10 @@
     color: #FFF
 }
 
-.tabs-subcontainer .tabs-list .tabs-list__tab1,
-.tabs-subcontainer .tabs-list .tabs-list__tab2,
-.tabs-subcontainer .tabs-list .tabs-list__tab3,
-.tabs-subcontainer .tabs-list .tabs-list__empty-tab {
-    /* display: inline-block; */
+.tabs-subcontainer .tabs-list__tab1,
+.tabs-subcontainer .tabs-list__tab2,
+.tabs-subcontainer .tabs-list__tab3,
+.tabs-subcontainer .tabs-list__empty-tab {
     margin-right: -5px;
     text-transform: uppercase;
     font-weight: 400;
@@ -88,14 +89,14 @@
     border-bottom: none;
 }
 
-.tabs-list__tab2,
-.tabs-subcontainer .tabs-list .tabs-list__tab3 {
+.tabs-container .tabs-list__tab2,
+.tabs-container .tabs-list__tab3 {
     width: 184px;
     border-bottom: 1px solid #E5E5E5;
 
 }
 
-.tabs-list__empty-tab {
+.tabs-subcontainer .tabs-list__empty-tab {
     width: 600px;
     border-bottom: 1px solid #E5E5E5;
 }
