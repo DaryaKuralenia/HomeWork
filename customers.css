@@ -1,0 +1,117 @@
+.customer-container {
+    width: 1170px;
+    height: 630px;
+    margin: 50px auto 64px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.customer-container h2 {
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.customer-container__separator {
+    width: 170px;
+    border: 0.5px solid #EC7979;
+    margin: auto;
+}
+
+.customer-container__gray-text {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #86878B;
+    text-align: center;
+    margin: 40px 0 83px;
+}
+
+.customer-container__reviews {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.customer-container__managers {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 46px;
+}
+
+.customer-container__reviews article {
+    width: 370px;
+    height: 180px;
+    background: #E2E2E2;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer-container__reviews div {
+    height: 105px;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #86878B;
+    text-align: center;
+}
+
+.customer-container__triangle {
+    display: inline-flex;
+    flex-direction: row;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid #E2E2E2;
+}
+
+div.customer-container__triangle:first-of-type {
+    position: relative;
+    right: -70px
+}
+
+div.customer-container__triangle:nth-of-type(2) {
+    position: relative;
+    right: -440px
+}
+
+div.customer-container__triangle:last-of-type {
+    position: relative;
+    right: -810px
+}
+
+.customer-container__managers div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 370px;
+    height: 90px;
+}
+
+.customer-container__managers-name {
+    width: 269px;
+    height: 54px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 30px;
+
+}
+
+.customer-container__managers h5 {
+    width: 270px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
