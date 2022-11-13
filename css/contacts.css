@@ -1,0 +1,94 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact-subcontainer {
+    width: 1170px;
+    margin: 50px auto;
+}
+
+.contact-subcontainer h2 {
+    height: 150px;
+    line-height: 150px;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact-subcontainer__separator {
+    width: 170px;
+    border: 0.5px solid#ec7979;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.contact-subcontainer h5 {
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+    color: #86878B;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 89px;
+}
+
+.contact-subcontainer input {
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    height: calc(16px + 19px + 16px);
+    width: 100%;
+}
+
+.contact-subcontainer input:not(:last-child) {
+    margin-bottom: calc(85px - 51px)
+}
+
+.contact-subcontainer input::placeholder,
+.contact-subcontainer textarea::placeholder {
+    font-size: 14px;
+    color: #bdbdbd
+}
+
+.contact-subcontainer__inputs {
+    display: inline-flex;
+    flex-direction: column;
+    width: 571px;
+}
+
+.contact-subcontainer textarea {
+    width: 569px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    height: 224.2px;
+    vertical-align: top;
+    margin-left: 25px;
+    resize: none;
+    padding-top: 16px;
+}
+
+.contact-subcontainer button {
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 600;
+    width: 370px;
+    background-color: #EC7979;
+    height: 58px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.contact-subcontainer button:hover {
+    background: #AB4949;
+}
+
+.contact-subcontainer button:active {
+    background: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
+}

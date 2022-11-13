@@ -1,0 +1,114 @@
+.customer-container {
+  margin: 50px auto 64px;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customer-subcontainer {
+  width: 1170px;
+  /* height: 630px; */
+}
+
+.customer-subcontainer h2 {
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 400;
+  margin-top: 50px;
+}
+
+.customer-subcontainer__separator {
+  width: 170px;
+  border: 0.5px solid #EC7979;
+  margin: auto;
+}
+
+.customer-subcontainer__text {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #86878B;
+  text-align: center;
+  margin: 40px 0 83px;
+}
+
+.customer-subcontainer__reviews {
+  display: flex;
+  justify-content: space-between;
+}
+
+.customer-subcontainer__reviews article {
+  width: 370px;
+  height: 336px;
+}
+
+.customer-subcontainer__reviews-review {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: space-between;
+}
+
+.customer-subcontainer__reviews-review p {
+  height: 180px;
+  background: #E2E2E2;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #86878B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.customer-subcontainer__triangle {
+  display: inline-flex;
+  flex-direction: row;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 20px solid #E2E2E2;
+}
+
+div.customer-subcontainer__triangle {
+  position: relative;
+  right: -70px
+}
+
+.customer-subcontainer__managers {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  width: 370px;
+  margin-top: 46px;
+  /* height: 90px; */
+}
+
+.customer-subcontainer__managers h4 {
+  width: 269px;
+  height: 54px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 30px;
+}
+
+.customer-subcontainer__managers h5 {
+  width: 269px;
+  height: 21px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
